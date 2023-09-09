@@ -86,21 +86,22 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+  background-color: #4a514a;
+}
 
-
-   .opito-hero {
-    width: 100%;
-   }
-
-   h3 {
-    background: whitesmoke;
-    color: sienna;
-    text-align: center;
-   }
-   h6 {
-    background: whitesmoke;
-    text-align: center;
-   }
+.opito-hero {
+  width: 100%;
+}
+h3 {
+  background: whitesmoke;
+  color: sienna;
+  text-align: center;
+}
+h6 {
+  background: whitesmoke;
+  text-align: center;
+}
 
 
 
