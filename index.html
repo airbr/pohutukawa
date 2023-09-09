@@ -25,11 +25,11 @@
 <body>
 
   <!-- Add your site or application content here -->
-  <h1>Pohutukawa tree in Opito Bay, New Zealand</h1>
+  <h1>Pōhutukawa tree in Opito Bay, New Zealand</h1>
   
   <img class="opito-hero" src="img/opito-hero-med.jpg"
      srcset="img/opito-hero-sm.jpg 480w, img/opito-hero-med.jpg 1200w, img/opito-hero.jpg 2400w"
-     alt="pohutukawa in Opito Bay"
+     alt="Pōhutukawa in Opito Bay"
     sizes="100vw"
      >
   <h1>A responsive image test</h1>
@@ -38,11 +38,15 @@
   <script src="js/main.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EM8C5HL2Y8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EM8C5HL2Y8');
+</script>
 </body>
 
 </html>
