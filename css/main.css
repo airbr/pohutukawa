@@ -93,12 +93,14 @@ body {
 .opito-hero {
   width: 100%;
 }
-h3 {
+h2 {
+  font-size: larger;
   background: whitesmoke;
   color: sienna;
   text-align: center;
 }
-h6 {
+h4 {
+  font-size: smaller;
   background: whitesmoke;
   text-align: center;
 }
